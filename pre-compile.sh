@@ -1,0 +1,13 @@
+#cp /xen/linux-3.3.7/include/linux/netdevice.h include/linux/
+#cp /xen/linux-3.3.7/net/core/sysctl_net_core.c net/core/
+cp /xen/linux-3.3.7/net/core/dev.c net/core/
+cp /xen/linux-3.3.7/drivers/net/xen-netback/interface.c drivers/net/xen-netback/
+#cp /xen/linux-3.3.7/drivers/net/xen-netback/xenbus.c drivers/net/xen-netback/
+cp /xen/linux-3.3.7/drivers/net/xen-netback/netback.c drivers/net/xen-netback/
+#cp /xen/linux-3.3.7/drivers/net/xen-netback/common.h drivers/net/xen-netback/
+cp /xen/linux-3.3.7/drivers/net/ethernet/intel/e1000e/netdev.c drivers/net/ethernet/intel/e1000e/
+#cp /xen/linux-3.3.7/include/linux/net_xmit.h include/linux/
+#cp /xen/linux-3.3.7/drivers/net/ethernet/intel/e1000e/hw.h drivers/net/ethernet/intel/e1000e/
+#cp /xen/linux-3.3.7/drivers/net/ethernet/intel/e1000e/e1000.h drivers/net/ethernet/intel/e1000e/
+#cp /xen/linux-3.3.7/drivers/net/ethernet/intel/e1000e/param.c drivers/net/ethernet/intel/e1000e/
+#cp /xen/linux-3.3.7/net/sched/sch_generic.c net/sched/
